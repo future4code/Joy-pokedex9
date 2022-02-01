@@ -1,9 +1,9 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Rodrigo Carlos Rodrigues
+- Luiz Felipe Luna Marques
+- Athos de Oliveira
 
 Link do Surge: www.link.com.br
 
@@ -14,3 +14,4 @@ O que funciona:
 O que não funciona: 
 - Item 3
 - Item 4
+
