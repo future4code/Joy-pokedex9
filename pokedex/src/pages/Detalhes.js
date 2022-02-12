@@ -2,6 +2,8 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import Axios from "axios";
+import DetalhesPokemon from "../Componentes/DetalhesPokemon";
+
 
 const Topo = styled.div`
 background-size: 5%;
@@ -12,8 +14,6 @@ padding:0;
 width: 100vw;
 height: 7vh;
 display:flex;
-/* justify-content: space-evenly; */
-
 `
 const BotaoMenu = styled.button`
     width:10vw;
@@ -23,20 +23,16 @@ const BotaoMenu = styled.button`
     border-radius: 3%;
     color: #FDFDFD;
     font-size: 100%large;
-       
-    
     :hover{
-        background:#red;
-        border: 2% solid #2277ff;
+        background: #FFCB08;
+        border: 2% solid #CC0000;
      
-
     }
     :active{
         background:gray;
         color: #FDFDFD;
         border: 2% solid #FDFDFD;
     }
-    
 `
 
 export const Detalhes = () => {
@@ -52,14 +48,15 @@ export const Detalhes = () => {
     };
 
     return (
-    <div>
-         
-    <Topo>
-    <BotaoMenu onClick={Voltar}> Voltar </BotaoMenu>
-    <BotaoMenu onClick={Pokedex}> Go Pokedex </BotaoMenu>
-    </Topo>
+        <div>
 
-    </div>
+            <Topo>
+                <BotaoMenu onClick={Voltar}> Voltar </BotaoMenu>
+                <BotaoMenu onClick={Pokedex}> Go Pokedex </BotaoMenu>
+
+            </Topo>
+            <DetalhesPokemon />
+        </div>
     );
-  };
+};
 

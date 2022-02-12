@@ -26,10 +26,9 @@ const BotaoMenu = styled.button`
        
     
     :hover{
-        background:#red;
-        border: 2% solid #2277ff;
+      background: #FFCB08;
+        border: 2% solid #CC0000;
      
-
     }
     :active{
         background:gray;
