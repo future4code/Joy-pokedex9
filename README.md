@@ -5,13 +5,13 @@ Nome dos integrantes:
 - Luiz Felipe Luna Marques
 - Athos de Oliveira
 
-Link do Surge: www.link.com.br
+Link do Surge: https://bad-tax.surge.sh/
 
 O que funciona:
 - Listagem de Polemons
 - Pesquisa de Pokemons
 
 O que não funciona: 
-- Item 3
-- Item 4
+- Detalhes
+- Lista de Pokemons Escolhidos 
 
