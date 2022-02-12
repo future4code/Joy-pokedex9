@@ -145,7 +145,7 @@ export const HomePage = () => {
           <Searchbar onSearch={onSearch} />
           {notFound ? (
             <div className="not-found-text">
-              No se encontro el Pokemon que buscabas 😭
+              Pokemon nao encontrado 😭
             </div>
           ) : (
             <Pokedex
