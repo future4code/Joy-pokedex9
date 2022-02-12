@@ -1,8 +1,10 @@
 import React from "react";
 import Pagination from "./Pagination";
 import Pokemon from "./Pokemon";
+import { useHistory } from "react-router-dom";
 
 const Pokedex = (props) => {
+ 
   const { pokemons, page, setPage, total, loading } = props;
 
   const lastPage = () => {
@@ -24,6 +26,7 @@ const Pokedex = (props) => {
           totalPages={total}
           onLeftClick={lastPage}
           onRightClick={nextPage}
+         
         />
       </div>
       {loading ? (
@@ -31,7 +34,9 @@ const Pokedex = (props) => {
       ) : (
         <div className="pokedex-grid">
           {pokemons.map((pokemon, idx) => {
-            return <Pokemon pokemon={pokemon} key={pokemon.name} />;
+            return <Pokemon pokemon={pokemon} key={pokemon.name} 
+     
+            />;
           })}
         </div>
       )}

@@ -37,11 +37,9 @@ const BotaoMenu = styled.button`
 
 export const Detalhes = () => {
     const history = useHistory();
-    const Pokedex = () => {
-        history.push("/Pokedex");
+    const Favoritos = () => {
+        history.push("/Favoritos");
     };
-
-
 
     const Voltar = () => {
         history.goBack();
@@ -52,7 +50,7 @@ export const Detalhes = () => {
 
             <Topo>
                 <BotaoMenu onClick={Voltar}> Voltar </BotaoMenu>
-                <BotaoMenu onClick={Pokedex}> Go Pokedex </BotaoMenu>
+                <BotaoMenu onClick={Favoritos}> Go Pokedex </BotaoMenu>
 
             </Topo>
             <DetalhesPokemon />

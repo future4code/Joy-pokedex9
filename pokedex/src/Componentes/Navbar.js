@@ -1,5 +1,14 @@
 import React from "react";
 import FavoriteContext from "../Context/Context";
+import styled from "styled-components";
+
+
+const Pokebols = styled.img`
+
+background-image: url("https://cdn-icons-png.flaticon.com/512/188/188942.png");
+background-size: cover;
+padding:3vh;
+`
 
 const { useContext } = React;
 
@@ -13,9 +22,9 @@ const Navbar = () => {
     <nav>
       <div />
       <div>
-        <img src={imgUrl} alt="pokeapi-logo" className="navbar-image" />
+        <img src={imgUrl} alt="pokemongo-logo" className="navbar-image" />
       </div>
-      <div>&#10084;&#65039; {favoritePokemons.length}</div>
+      <div><Pokebols/> {favoritePokemons.length}</div>
     </nav>
   );
 };
