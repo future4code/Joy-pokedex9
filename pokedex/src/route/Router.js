@@ -1,7 +1,7 @@
 
 
 import { HomePage } from "../pages/HomePage";
-import { Pokedex } from "../pages/Pokedex";
+import { Favoritos } from "../pages/Favoritos";
 import { Detalhes } from "../pages/Detalhes";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -14,8 +14,8 @@ export const Router = () => {
           <HomePage />
         </Route>
 
-        <Route exact path={"/Pokedex"}>
-          <Pokedex />
+        <Route exact path={"/Favoritos"}>
+          <Favoritos />
         </Route>
 
         <Route exact path={"/Detalhes"}>
