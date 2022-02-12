@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    overflow: hidden;
   }
   
   nav {
@@ -8,6 +9,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    overflow: hidden;
   }
   
   .navbar-image {
@@ -57,6 +59,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    overflow: hidden;
   }
   
   .pokedex-grid {
@@ -64,6 +67,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 18px;
     padding: 0px 10px 20px 10px;
+    overflow: hidden;
   }
   
   @media screen and (max-width: 992px) {
@@ -108,6 +112,7 @@
     justify-content: space-between;
     padding: 10px 10px 10px 10px;
     flex: 1;
+    overflow: hidden;
   }
   
   .card-top {
@@ -136,6 +141,7 @@
   
   .App {
     font-family: sans-serif;
+    overflow: hidden;
   }
   
   .icon {
@@ -154,6 +160,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    overflow: hidden;
   }
   
   .pokemon-heart-btn {
@@ -178,8 +185,9 @@
     color: white;
     text-align: center;
     font-size: 1.1rem;
+    overflow: hidden;
   }
   footer a {
-    color: #e58112;
+    color: white;
   }
   

@@ -39,7 +39,7 @@ const BotaoMenu = styled.button`
     
 `
 const P = styled.div`
-background-image: url("https://wallpaperaccess.com/full/5818321.jpg");
+background-image: url("");
 background-size: contain;
 background-repeat: no-repeat;
 height: 100vh;
@@ -61,7 +61,7 @@ export const Favoritos = () => {
           <Topo>
           <BotaoMenu onClick={HomePage}> Go Pokemon List </BotaoMenu>
           </Topo>
-            <P>pokeDEX</P>
+            <P>tentar colcoar os favoritos</P>
           </div>
           );
         };
