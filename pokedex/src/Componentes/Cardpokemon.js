@@ -7,10 +7,7 @@ import Axios from "axios";
 
 export const Cardpokemon = () => {
     const history = useHistory();
-
     history.push("/Detalhes");
-
-
 };
 
 
