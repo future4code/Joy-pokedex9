@@ -1,16 +1,18 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Rodrigo Carlos Rodrigues
+- Luiz Felipe Luna Marques
+- Athos de Oliveira
 
-Link do Surge: www.link.com.br
+Link do Surge: https://bad-tax.surge.sh/
 
 O que funciona:
-- Item 1
-- Item 2
+- Listagem de Polemons
+- Pesquisa de Pokemons
 
 O que não funciona: 
-- Item 3
-- Item 4
+- Detalhes
+- Lista de Pokemons Escolhidos 
+
+![image](https://user-images.githubusercontent.com/64941377/153729816-df733903-6045-40e9-b19a-75d366f91ed1.png)
